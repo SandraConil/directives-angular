@@ -1,8 +1,39 @@
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
 button {
     width: 150px;
+    height: 30px;
+    background-color: aqua;
     
 }
 
 .affich{
     visibility: hidden;
 }
+.parent {
+    width: 500px;
+    height: 50vh;
+    background-color: papayawhip;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+}
+
+.enfant {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 50px;
+
+
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+}
+
